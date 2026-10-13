@@ -1,0 +1,49 @@
+{
+  "name": "Charge the Robot — Sector Intros",
+  "short_name": "Charge Robot",
+  "description": "Draw paths and guide electrical sparks to awaken the robot across 40 challenging offline sectors.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "fullscreen",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "background_color": "#071521",
+  "theme_color": "#071521",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": [
+    "games",
+    "puzzle",
+    "arcade"
+  ],
+  "lang": "en",
+  "dir": "ltr"
+}

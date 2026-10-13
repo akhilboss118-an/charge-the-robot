@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#49d9ff"/>
+      <stop offset="100%" stop-color="#0a85ea"/>
+    </linearGradient>
+    <linearGradient id="copper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffbe53"/>
+      <stop offset="100%" stop-color="#e07e1a"/>
+    </linearGradient>
+    <radialGradient id="sparkGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#49d9ff"/>
+      <stop offset="100%" stop-color="#49d9ff00"/>
+    </radialGradient>
+  </defs>
+  <!-- Background Plate -->
+  <rect width="100" height="100" rx="22" fill="#071521" stroke="#2388bb" stroke-width="2.5"/>
+  <!-- Circuit Traces -->
+  <path d="M12 25 H28 V45 H40" stroke="#ffbe5355" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="12" cy="25" r="2.5" fill="#ffbe53"/>
+  <path d="M88 75 H72 V55 H60" stroke="#49d9ff55" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="88" cy="75" r="2.5" fill="#49d9ff"/>
+  <!-- Robot Head -->
+  <rect x="24" y="28" width="52" height="44" rx="14" fill="#0d2a42" stroke="url(#glow)" stroke-width="2.5"/>
+  <!-- Antennas -->
+  <line x1="36" y1="28" x2="32" y2="16" stroke="url(#copper)" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="32" cy="16" r="3" fill="#ffbe53"/>
+  <line x1="64" y1="28" x2="68" y2="16" stroke="url(#copper)" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="68" cy="16" r="3" fill="#ffbe53"/>
+  <!-- Visor -->
+  <rect x="30" y="38" width="40" height="22" rx="7" fill="#04121e" stroke="#1c4659" stroke-width="1.5"/>
+  <!-- Glowing Eyes -->
+  <circle cx="41" cy="48" r="4.5" fill="#49d9ff" filter="drop-shadow(0 0 4px #49d9ff)"/>
+  <circle cx="59" cy="48" r="4.5" fill="#49d9ff" filter="drop-shadow(0 0 4px #49d9ff)"/>
+  <!-- Smile -->
+  <path d="M46 54 Q50 57 54 54" stroke="#ffbe53" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Electric Spark at Bottom -->
+  <path d="M48 76 L52 82 L49 84 L53 90" stroke="#49d9ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>
