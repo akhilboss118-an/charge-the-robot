@@ -7,11 +7,9 @@
 
 ## 🎮 Play Online
 
-Once deployed on GitHub Pages, the game is playable directly in any modern desktop or mobile browser:
+Play directly in any modern desktop or mobile browser without installation:
 
-👉 **`https://<your-username>.github.io/<your-repo-name>/`**
-
-*(Replace `<your-username>` and `<your-repo-name>` with your GitHub details)*
+👉 **[https://akhilboss118-an.github.io/charge-the-robot/](https://akhilboss118-an.github.io/charge-the-robot/)**
 
 ---
 
