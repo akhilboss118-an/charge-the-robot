@@ -2,7 +2,7 @@
   "name": "Charge the Robot — Sector Intros",
   "short_name": "Charge Robot",
   "description": "Draw paths and guide electrical sparks to awaken the robot across 40 challenging offline sectors.",
-  "start_url": "./index.html",
+  "start_url": "./charge-the-robot.html",
   "scope": "./",
   "display": "standalone",
   "display_override": [

@@ -1,7 +1,6 @@
 const CACHE_NAME = 'charge-the-robot-v3';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html',
   './charge-the-robot.html',
   './manifest.json',
   './favicon.svg',
@@ -62,7 +61,7 @@ self.addEventListener('fetch', (event) => {
       }).catch(() => {
         // Fallback for HTML documents if offline
         if (event.request.destination === 'document' || event.request.mode === 'navigate') {
-          return caches.match('./index.html').then((res) => res || caches.match('./charge-the-robot.html'));
+          return caches.match('./charge-the-robot.html');
         }
       });
     })
