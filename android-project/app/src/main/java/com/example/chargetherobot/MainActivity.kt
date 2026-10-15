@@ -52,6 +52,7 @@ class MainActivity : Activity() {
 
             // 1. Build and install WebView content
             val web = buildWebView()
+            web.clearCache(true)
             setContentView(web)
 
             // 2. Set immersive fullscreen after decor view is attached
