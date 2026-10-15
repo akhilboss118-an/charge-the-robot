@@ -1,7 +1,8 @@
-const CACHE_NAME = 'charge-the-robot-v2';
+const CACHE_NAME = 'charge-the-robot-v4';
 const ASSETS_TO_CACHE = [
   './',
   './charge-the-robot.html',
+  './intro.html',
   './manifest.json',
   './favicon.svg',
   './icon-192.png',

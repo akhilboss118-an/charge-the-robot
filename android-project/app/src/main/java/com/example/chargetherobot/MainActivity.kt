@@ -80,7 +80,7 @@ class MainActivity : Activity() {
 
         return WebView(this).apply {
             webView = this
-            setBackgroundColor(0xFF071521.toInt())
+            setBackgroundColor(0xFF0A0A0C.toInt())
             scrollBarStyle = View.SCROLLBARS_INSIDE_OVERLAY
             isVerticalScrollBarEnabled = false
             isHorizontalScrollBarEnabled = false
